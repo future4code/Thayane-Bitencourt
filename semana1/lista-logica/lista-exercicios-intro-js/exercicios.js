@@ -87,13 +87,17 @@ function retornaPrimeiroElemento(array) {
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
+  const arrayPrimeiro = array[0]
+  const ultimoArray = [array.lenght -1]
+  console.log(arrayPrimeiro,ultimoArray)
 
 }
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+  const arrayPrimeiro = array[0]
+  const ultimoArray = [array.lenght -1]
+  ultimoArray<= arrayPrimeiro
 
 }
 
