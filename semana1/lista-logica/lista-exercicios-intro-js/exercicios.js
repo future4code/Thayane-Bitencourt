@@ -2,16 +2,16 @@
 
 // EXERCÍCIO 0A
 function soma(num1, num2) {
-  // implemente sua lógica aqui
-  prompt("Informe um numero",num1)
+  // receber os números
+  prompt("Informe um numero", num1)
   prompt("Informe outro número", num2)
   return num1 + num2
-  
+
 }
 
 // EXERCÍCIO 0B
 function imprimeMensagem() {
-  // implemente sua lógica aqui
+  //vai imprimir mensagem no console
   const mensagem = prompt('Digite uma mensagem!')
 
   console.log(mensagem)
