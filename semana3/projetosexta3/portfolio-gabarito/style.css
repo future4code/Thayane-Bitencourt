@@ -1,0 +1,64 @@
+
+
+* {
+    margin: 0;
+    font-family:"Cambria";
+}
+
+.header {
+    background-color: palevioletred ;
+    height: 80px;
+}
+
+.menu {
+    margin: 10px 0;
+}
+
+.menu a {
+    color: #353b45;
+    border: 1px solid #353b45;
+    padding: 5px;
+    margin: 10px
+}
+
+#selected {
+    color:rgb(230, 173, 213)(34, 192, 20);
+    border: 2px solid rgb(180, 45, 135)
+}
+
+a {
+    text-decoration: none;
+}
+
+#profile-picture {
+    height: 300px
+}
+ 
+#labenu-logo {
+    height: 100px;
+}
+
+button {
+    background-color: lightgray;
+    border: 2px solid #353b45;
+    border-radius: 15px;
+    height: 30px;
+    width: 60px;
+}
+
+form input {
+    display: block;
+}
+
+.footer {
+    background-color: rgb(230, 173, 213);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body{
+    background:-moz-repeating-linear-gradient();
+}]
+.footer a {
+    color: #353b45;
+}
