@@ -1,0 +1,12 @@
+Comidas preferidas:
+1-feijoada
+2-lasanha
+3-estrogonofe
+4-moqueca de camarão
+5-escondidinho
+6-rabada
+7- serapatel
+8-lagosta
+9-xinxim de bofe
+10-dobradinha
+
