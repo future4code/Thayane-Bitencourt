@@ -17,11 +17,62 @@
 //se fosse -10, nada
 //c)Sim, pois não tem condição caso numero seja negativo
 
-const numero = Number(prompt("Digite o primeiro número."))
+// const numero = Number(prompt("Digite o primeiro número."))
 
-if(numero > 0) {
-  console.log("Esse número passou no teste")
-	let mensagem = "Essa mensagem é secreta!!!"
-}
+// if(numero > 0) {
+//   console.log("Esse número passou no teste")
+// 	let mensagem = "Essa mensagem é secreta!!!"
+// }
 
-console.log(mensagem)
+// console.log(mensagem)
+
+// Exercicio de escrita de codigo
+//primeira questao
+
+// const idade = Number(prompt("Qual sua idade?"))
+// if(idade<18){
+  // console.log("Voce não pode dirigir. Espere completar dezoito anos")
+//   alert("Você não pode dirigir. Espere completar dezoito anos.")
+//   }
+//   else{
+//     console.log("Você pode dirigir")
+//     alert("Você pode dirigir")
+//   }
+
+//segunda questao
+
+// const turno = prompt("Informe o turno que estuda: M (matutino), V(vespertino) e N(noturno)")
+// {
+// if (turno==="M")
+// {
+//   console.log("Bom dia")
+// }
+// if (turno==="V")
+// {
+//   console.log("Boa tarde")
+// } 
+//   if (turno==="N")
+// {
+//   console.log("Boa Noite")
+// }
+// }
+
+//terceira questao
+const turno = prompt("Informe o turno que estuda: M (matutino), V(vespertino) e N(noturno)")
+ {
+ case ("M")
+ {
+   console.log("Bom dia")
+   break;
+ }
+ case (turno==="V")
+ {
+   console.log("Boa tarde")
+   break;
+ } 
+ case (turno==="N")
+ {
+   console.log("Boa Noite")
+   break;
+ }
+ }
