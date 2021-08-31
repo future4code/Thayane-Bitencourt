@@ -1,4 +1,8 @@
-
+html{
+    background-image: url(img/foto.jpg); opacity: 0.6;
+image-rendering: auto;    
+    
+}
 
 * {
     margin: 0;
@@ -6,12 +10,24 @@
 }
 
 .header {
-    background-color: palevioletred ;
+    background-color: rgb(152, 156, 211) ;
     height: 80px;
+    justify-content: center;
+    text-align: center;
 }
 
 .menu {
     margin: 10px 0;
+}
+.main1{
+    justify-content: center;
+    text-align: center;
+}
+
+.main2{
+    justify-items: center;
+    text-justify: center;
+
 }
 
 .menu a {
@@ -22,14 +38,17 @@
 }
 
 #selected {
-    color:rgb(230, 173, 213)(34, 192, 20);
-    border: 2px solid rgb(180, 45, 135)
+    color:rgb(230, 173, 181)(34, 192, 20);
+    border: 2px solid rgb(12, 7, 10)
 }
 
 a {
     text-decoration: none;
 }
-
+h2{
+    text-align: center;
+    justify-content: center;
+}
 #profile-picture {
     height: 300px
 }
@@ -51,14 +70,16 @@ form input {
 }
 
 .footer {
-    background-color: rgb(230, 173, 213);
+    background-color: rgb(71, 75, 133);
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 body{
     background:-moz-repeating-linear-gradient();
-}]
-.footer a {
+}
+.footer{
+ text-align: center;
+ justify-content: center;
     color: #353b45;
 }
