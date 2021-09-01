@@ -58,8 +58,9 @@ div img {
     margin-top: 2%;
 }
 
-.icone {
-    height: 15px;
+.icone{
+    width: 10px;
+    height: 10px;
 }
 
 
@@ -101,7 +102,13 @@ div:last-child {
 }
 
 table {
-    width: 60%;
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    justify-items: center;
+}
+.fonte{
+    font-family: sans-serif;
 }
 
 td button {
