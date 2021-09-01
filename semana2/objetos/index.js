@@ -1,34 +1,87 @@
-//*Exercicio de interpretação*//
-//********************************//
-//Primeira questão//
+//Exercicio de interpretacao
+//primeira questão
+//letra a
+//Matheus Nachtergaele
+//Virginia Cavendish
+//canal:"Globo",horario:"14h"
 
-// a) Matheus Machtergaele//
-// Virginia Cavendish//
-// canal: "Globo", horario: "14h"//
+//segunda questao
 
-//Segunda questao//
-//a)(nome:"Juca",  idade:3 ; raça"SRD")// 
-//(nome:"Juba",  idade:3 ; raça"SRD")//
-//(nome:"Jubo",  idade:3 ; raça"SRD")//
-//b) a sintaxe de espalhamento faz uma copia de objeto do que vem depois, pode ser objeto ou array//
+//letra a
+// nome:Juca,idade: 3, raca:SRD
+//nome:Juba,idade:3, raca:SRD
+//nome:Jubo,idade:3, raca:SRD
 
-//Terceira questao//
-//a) false //
-//      undefined//
-//b)a funcao minhaFuncao recebe um objeto
-// e o nome de uma propriedade que o objeto ´
-//possua ou nao e retorna o valor dela//
-//o primeiro console log solicitou a propriedade
-//existente e a segunda retornou undefined pois nao
-//possui a propriedade declarada//
+//letra b 
+//vai repetir o objeto anterior
 
-//Exercicio escrita de codigo//
-//primeira questao//
-//a)//
-//entrada//
-const pessoa = {
-    nome: "Thayane ",
-    apelidos: [" Thay ", " Tatay", " Tata"]
-};
-//saida//
-console.log("Eu sou $(pessoa,nome), mas pode me chamar de: $(pessoa,apelidos[0]),$(pessoa,apelidos[1]) ou $(pessoa,apelidos[2])")
+//terceira questao
+
+//letra a
+//false
+//undefined
+
+//letra b
+//falso pois o backender no objeto é falso
+//undefined pois altura nao foi declarada
+
+//EXERCICIO DE CODIGO
+
+//letra a
+
+// function minhaFuncao(objeto, propriedade) {
+// 	return objeto[propriedade]
+// }
+
+// const pessoa = {
+//   nome: "Amanda", 
+//   apelido: ["Amandinha,Mandinha,Mandi"]}
+
+// console.log("Eu sou", pessoa.nome,"mas podem me chamar de: ",pessoa.apelido)
+
+//letra b
+//alterando o apelido de dentro do objeto
+
+// function minhaFuncao(objeto, propriedade) {
+// return objeto[propriedade]
+//  }
+    
+//  const pessoa = {
+//      nome: "Amanda", 
+//      apelido: ["Amandinha,Mandinha,Mandi"]}
+  
+     
+// const novoApelido ={ 
+//     ...pessoa.nome,
+//     apelido:["Be, Nani e Ninha"]
+// }
+
+//    console.log("Eu sou", pessoa.nome,"mas podem me chamar de: ",novoApelido.apelido)
+    
+//SEGUNDA QUESTÃO
+
+//programa que recebe um array e conta os caracteres de nome e profissao
+// const pessoa= {
+//     nome: "Noah",
+//     idade:"2",
+//     profissao:"Estudante"
+// }
+
+// var tamanho = pessoa.nome.length;
+// var tamanho2 = pessoa.profissao.length;
+
+
+// console.log(pessoa.nome,",", tamanho,",", pessoa.idade,",", pessoa.profissao,",", tamanho2)
+
+//TERCEIRA QUESTAO
+// RECEBE VAZIO
+
+// const carrinho = [{},{},{}]
+// console.log(carrinho)
+
+// Object = [{nome:"mamao", disponibilidade:"true"},{nome:"uva", disponibilidade:"true"},{nome:"pera", disponibilidade:"true"}]
+
+
+// console.log(Object())
+
+

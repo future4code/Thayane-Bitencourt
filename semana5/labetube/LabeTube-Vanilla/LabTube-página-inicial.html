@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LabTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tela-inteira">
+        <header>
+            <h1>LabTube</h1>
+            <input type="text" placeholder="Busca" id="campoDeBusca"></input>
+        </header>
+
+        <main>
+            <nav class="menu-vertical">
+                <ul>
+                    <li class="botoes-meunu-vertical">Início</li>
+                    <li class="botoes-meunu-vertical">Em alta</li>
+                    <li class="botoes-meunu-vertical">Inscrições</li>
+                    <hr></hr>
+                    <li class="botoes-meunu-vertical">Originais</li>
+                    <li class="botoes-meunu-vertical">Histórico</li>
+                </ul>
+            </nav>
+
+            <section class="painel-de-videos">
+                <div class="box-pagina-principal media1" onclick="reproduzVideo()">
+                    <img src="./tttunado.png" alt=""></img>
+                    <h4>Carros tunnado</h4>
+                </div>
+                <div class="box-pagina-principal media2" onclick="reproduzVideo()">
+                    <img src="./calopsitacantando.png" alt=""></img>
+                    <h4>Calopsita cantando</h4>
+                </div>
+                <div class="box-pagina-principal media3" onclick="reproduzVideo()">
+                    <img src="./programa.jpg" alt=""></img>
+                    <h4>A arte de programar</h4>
+                </div>
+                <div class="box-pagina-principal media4" onclick="reproduzVideo()">
+                    <img src="./maldivas.jpg" alt=""></img>
+                    <h4>Ilha dos meus sonhos</h4>
+                </div>
+                <div class="box-pagina-principal media5" onclick="reproduzVideo()">
+                    <img src="./baixados.jpg" alt=""></img>
+                    <h4>Harry Potter</h4>
+                </div>
+                <div class="box-pagina-principal media6" onclick="reproduzVideo()">
+                    <img src="./cachorro.png" alt=""></img>
+                    <h4>O cachorro mais fofo</h4>
+                </div>
+                <div class="box-pagina-principal media7" onclick="reproduzVideo()">
+                    <img src="./baixados2.png" alt=""></img>
+                    <h4>A melhor escola de programação</h4>
+                </div>
+                <div class="box-pagina-principal media8" onclick="reproduzVideo()">
+                    <img src="./gruta.jpg" alt=""></img>
+                    <h4>Gruta</h4>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <center>DEV THAYANE BITENCOURT</center>
+        </footer>
+    </div>
+</body>
+
+<script>
+    function reproduzVideo() {
+        alert("O vídeo está sendo reproduzido")
+    }
+</script>
+</html>

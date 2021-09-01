@@ -16,28 +16,28 @@
 
 //letra a
 const pets = [
-    { nome: "Lupin", raca: "Salsicha"},
-    { nome: "Polly", raca: "Lhasa Apso"},
-    { nome: "Madame", raca: "Poodle"},
-    { nome: "Quentinho", raca: "Salsicha"},
-    { nome: "Fluffy", raca: "Poodle"},
-    { nome: "Caramelo", raca: "Vira-lata"},
- ]
- const novoArrayB = pets.map((item, array) => {
-    return item.nome
- })
- 
- console.log(novoArrayB)
+   { nome: "Lupin", raca: "Salsicha" },
+   { nome: "Polly", raca: "Lhasa Apso" },
+   { nome: "Madame", raca: "Poodle" },
+   { nome: "Quentinho", raca: "Salsicha" },
+   { nome: "Fluffy", raca: "Poodle" },
+   { nome: "Caramelo", raca: "Vira-lata" },
+             ]
+const novoArrayB = pets.map((item, array) => {
+   return item.nome
+                                             }
 
- // letra b
- const pets = [
-    { nome: "Lupin", raca: "Salsicha"},
-    { nome: "Polly", raca: "Lhasa Apso"},
-    { nome: "Madame", raca: "Poodle"},
-    { nome: "Quentinho", raca: "Salsicha"},
-    { nome: "Fluffy", raca: "Poodle"},
-    { nome: "Caramelo", raca: "Vira-lata"},
- ]
+console.log(novoArrayB)
+
+// letra b
+const pets = [
+   { nome: "Lupin", raca: "Salsicha" },
+   { nome: "Polly", raca: "Lhasa Apso" },
+   { nome: "Madame", raca: "Poodle" },
+   { nome: "Quentinho", raca: "Salsicha" },
+   { nome: "Fluffy", raca: "Poodle" },
+   { nome: "Caramelo", raca: "Vira-lata" },
+]
 const novoArrayC = pets.filter((item, array) => {
    return item.raca == "Salsicha"
 })
@@ -45,7 +45,7 @@ const novoArrayC = pets.filter((item, array) => {
 console.log(novoArrayC)
 
 //letra c
- 
- 
+
+
 
 

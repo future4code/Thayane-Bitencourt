@@ -1,0 +1,59 @@
+
+html{
+    background-color:#edc271;
+}
+
+
+.foto{
+width: 150px;
+
+}
+
+.cabecalho{
+    margin-block-start: 5%;
+    display:inline-flexbox;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-top: 0%;
+}
+.tabela{
+    display:grid;
+    width: 100%;
+    justify-content: center;
+}
+
+h2{
+    font-size: 16px;
+    display:block;
+}
+
+#emblema{
+    display:inline-flex;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.fotom{
+    width: 30px;
+    background-color:white;
+}
+
+h1{
+    background-color:#f4d195;
+    margin-block-start: 0%;
+    color: white;
+    display: inline;
+    font:bolder;
+
+}
+.cabecalho{
+  margin-right: 200px;
+display: inline-block;    
+}
+
+menu{
+display:grid;
+margin-top: 0%;
+}

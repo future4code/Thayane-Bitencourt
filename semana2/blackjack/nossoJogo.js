@@ -10,15 +10,43 @@
  * 
  * 
  */
-console.log prompt("Boas vindas ao jogo de Blackjack")
-const confirmaSeContinua=(){
-   const querJogar = confirm(prompt("Quer iniciar uma nova rodada?"))
- if(querJogar==="ok") {
- returne true
-  }
- else {
-console.log("O jogo acabou")
-   returne false
-  }  
+
+
+console.log("Boas vindas ao jogo de Blackjack")
+if (confirm("Quer iniciar uma nova rodada?")) {
+   //faz o sorteio das cartas
+   const cartaUsuario = comprarCarta()
+   const cartaComputador = comprarCarta()
+   const cartaUsuario2 = comprarCarta()
+   const cartaComputador2 = comprarCarta()
+
+   //vai receber as cartas e valores
+
+   cartaUsuarioTexto = cartaUsuario.texto + cartaUsuario2.texto
+   cartaComputadorTexto = cartaComputador.texto + cartaComputador2.texto
+   cartaUsuarioValor = cartaUsuario.valor + cartaUsuario2.valor
+   cartaComputadorTexto = cartaComputador.valor + cartaComputador2.valor
+
+   //imprimi o que esta pedindo, o nome do jogador, as cartas e a pontuação
+
+   console.log("Usuário- cartas- ", cartaUsuarioTexto, ", pontuação - ", cartaUsuarioValor)
+   console.log("Computador- cartas- ", cartaComputadorTexto, ", pontuação - ", cartaComputadorValor)
+
+   //resultado do jogo
+
+   if (cartaUsuarioTotal > cartaComputadorTotal) {
+      console.log("O Usuário ganhou")
+   }
+   if (cartaUsuarioTotal = cartaComputadorTotal) {
+      console.log("Empate!!")
+   }
+   if (cartaUsuarioTotal < cartaComputadorTotal) {
+      console.log("O computador ganhou!")
+   }
+
 }
-     confirmaSeContinua()
+// caso ele nao queira continuar a jogar
+else {
+   console.log("O jogo acabou!")
+}
+
