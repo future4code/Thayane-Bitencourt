@@ -11,6 +11,7 @@
  * 
  */
 
+
 console.log("Boas vindas ao jogo de Blackjack")
 if (confirm("Quer iniciar uma nova rodada?")) {
    //faz o sorteio das cartas
@@ -48,3 +49,4 @@ if (confirm("Quer iniciar uma nova rodada?")) {
 else {
    console.log("O jogo acabou!")
 }
+
