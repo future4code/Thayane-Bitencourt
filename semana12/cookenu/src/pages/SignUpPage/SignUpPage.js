@@ -15,4 +15,4 @@ const SignUpPage = ({setRightButtonText}) => {
   )
 }
 
-export default SignUpPage
+export default SignUpPage;
