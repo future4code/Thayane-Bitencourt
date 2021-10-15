@@ -1,0 +1,9 @@
+export enum COR{
+    AZUL="AZUL",
+    AMARELO="AMARELO",
+    ANIL="ANIL",
+    VIOLETA="VIOLETA",
+    VERDE="VERDE",
+    LARANJA="LARANJA",
+    VERMELHO="VERMELHO"
+}
