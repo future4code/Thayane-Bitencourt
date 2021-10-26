@@ -1,0 +1,16 @@
+{
+  "name": "testethayanepita",
+  "version": "1.0.0",
+  "description": "Teste thayane",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cross-fetch": "^3.1.4",
+    "node-fetch": "^3.0.0"
+  }
+}
